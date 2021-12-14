@@ -1,0 +1,334 @@
+
+body {
+    font-family: sofia-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1 {
+    font-family: sofia-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+#header-logo-color {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    box-sizing: border-box;
+}
+
+.purple-button {
+    background-color: #cd9bd7;
+    color: #870aa0;
+    border: none;
+    padding: 2% 5% 2% 5%;
+    margin-top: 4%;
+    margin-bottom: 6%;
+
+    
+    border-radius: 10px;
+
+    width: 50%;
+}
+
+.orange-button {
+    background-color: #ff5f0a;
+    color: white;
+    border: none;
+    padding: 2% 5% 2% 5%;
+    border-radius: 10px;
+}
+
+/* Header */
+
+header {
+    position: fixed;
+    top: 0;
+    height: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: white;
+    width: 100%;
+    z-index: 999;
+
+    font-weight: 700;
+}
+
+nav a:hover {
+    color: #ff5f0a;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+/* End of header */
+
+/* Main */
+
+.hero {
+    position: relative;
+    z-index: -1;
+}
+
+.hero-text {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    z-index: 900;
+}
+
+.quote {
+    background-color: rgb(233, 233, 233);
+    color: #870aa0;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 2%;
+}
+
+.about {
+    background-color: #870aa0;
+    color: white;
+}
+
+.about-second {
+    flex-wrap: wrap;
+    color: black;
+}
+
+#men-working {
+    width: 50%;
+    height: auto;
+}
+
+.news-holder {
+    position: relative;
+    background-color: rgb(233, 233, 233);
+    color: #707070;
+    padding: 4%;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  margin: 4%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #870aa0;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.news {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.news-text {
+    width: 70%;
+}
+
+.offers {
+    background-color: #870aa0;
+    color: white;
+}
+
+.social {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.social-holder {
+    background-color: rgb(233, 233, 233);
+    color: #870aa0;
+    padding: 4%;
+}
+
+.newsletter {
+    color: #707070;
+    padding: 4%;
+    margin-bottom: 4%;
+}
+
+
+/* End of main */
+
+/* Footer */
+footer {
+    background-image: url('assets/logos/cirkel-footer.svg');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    color: black;
+    background-size: 75%;
+}
+
+footer h2 {
+    color: black;
+}
+
+footer a {
+    position: relative;
+}
+
+.footer {
+    background-color: #ff5f0a;
+    height: 100vh;
+    padding: 4%;
+}
+
+.footer-content {
+    padding-top: 4%;
+}
+
+.icons {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+footer a:hover {
+    color: #ffcd32;
+}
+
+i {
+    width: 15%;
+    height: auto;
+}
+
+/* End of footer */
+
+
+/* 
+Sofia Pro Bold italic
+font-family: sofia-pro, sans-serif;
+font-weight: 700;
+font-style: italic;
+
+Sofia Pro Light
+font-family: sofia-pro, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Sofia Pro Light italic
+font-family: sofia-pro, sans-serif;
+font-weight: 300;
+font-style: italic;
+
+Sofia Pro Regular
+font-family: sofia-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Sofia Pro Regular italic
+font-family: sofia-pro, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+Sofia Pro Semi Bold
+font-family: sofia-pro, sans-serif;
+font-weight: 600;
+font-style: normal;
+
+Sofia Pro Semi Bold italic
+font-family: sofia-pro, sans-serif;
+font-weight: 600;
+font-style: italic; */
+
+
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 3.2rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+}
