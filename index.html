@@ -25,7 +25,7 @@
     <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
         <div class="container-fluid container">
             <a class="navbar-brand" href="#">
-                <img src="assets/logos/Almi-logo-colour.svg" alt="" class="col-4 col-md-3">
+                <img src="assets/logos/Almi-logo-colour.svg" alt="" class="col-4 col-md-4">
             </a>
     
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,8 +67,13 @@
 		</section>
 
         <section class="quote container">
-            <div class="quote-text col-10 me-auto ms-auto">
-                <p>Almis uppdrag är att främja utvecklingen av konkurrenskraftiga små och medelstora företag och stimulera företagandet i syfte att skapa tillväxt och förnyelse i svenskt näringsliv.</p>
+            <div class="quote-container">
+                <div class="citat col-1">
+                    <img src="assets/logos/Citattecken.svg" alt="" class="col-12 col-md-6">
+                </div>
+                <div class="quote-text col-10 me-auto ms-auto">
+                    <p>Almis uppdrag är att främja utvecklingen av konkurrenskraftiga små och medelstora företag och stimulera företagandet i syfte att skapa tillväxt och förnyelse i svenskt näringsliv.</p>
+                </div>
             </div>
 		</section>
 
@@ -86,7 +91,9 @@
                     <p>Almi arbetar för att stärka företagsklimatet, främja innovation och tillväxt i Sverige.
                     </p>
                     
-                    <button class="purple-button">Läs mer</button>
+                    <div class="d-flex justify-content-center">
+                        <button class="purple-button">Läs mer</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -105,8 +112,9 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-8 p-4 d-flex justify-content-center flex-wrap">
-                    <img src="assets/img/Men-working.png" alt="" id="men-working" class="img-fluid">
+                    <img src="assets/img/Men-working-hash.png" alt="" id="men-working" class="img-fluid">
                 </div>
+
             </div>
         </section>
 
@@ -150,44 +158,15 @@
                 <div class="col-lg-4 col-md-6 col-8 p-md-4 p-2">
                     <h2>Almis uppstartslån: Låna 10 000 kr, 25 000 kr eller 50 000 kr</h2>
                     <p>Tjänsten innefattar uppstartslån för företag som inte har varit verksamma mer än 3 år. Återbetalningsperioden är 12 månader för lån på 50 000 kr, 6 månader för lån på 25 000 kr och 3 månader för lån på 10 000 kr. Räntan är 5 % och amortering är en fast avgift på 500 kr/månad.</p>
-                    <button class="purple-button">Läs mer & ansök</button>
+                    <div class="d-flex justify-content-center">
+                        <button class="purple-button">Läs mer & ansök</button>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- <section class="news">
-            <div class="news-holder container">
-                <div class="mySlides col-8 mx-auto">
-                    <img class="social-photo img-fluid col-1" src="assets/img/Woman1.png" alt="">
-                    <p class="social-name">Amalia Jojo, Grundare och VD - Jojo Väv AB</p>
-                    <p class="social-quote">Jag kompletterade mitt banklån med lån från Almi och sedan dess har jag kunnat anställa mer personal och öka min omsättning.</p>
-                </div>
-
-                <div class="mySlides col-8 mx-auto">
-                    <img class="social-photo img-fluid col-1" src="assets/img/Woman2.png" alt="">
-                    <p class="social-name">Lisa Fisa, Grundare och VD - Svarta Kläder AB</p>
-                    <p class="social-quote">Jag kompletterade mitt banklån med lån från Almi och sedan dess har jag kunnat anställa mer personal och öka min omsättning.</p>
-                </div>
-
-                <div class="mySlides col-8 mx-auto">
-                    <img class="social-photo img-fluid col-1" src="assets/img/Garden-boy.png" alt="">
-                    <p class="social-name">Fredrik Tjosan, Grundare och VD - Trädgård AB</p>
-                    <p class="social-quote">Jag kompletterade mitt banklån med lån från Almi och sedan dess har jag kunnat anställa mer personal och öka min omsättning.</p>
-                </div>
-
-                <a class="prev" onclick="plusSlides(-1)">❮</a>
-                <a class="next" onclick="plusSlides(1)">❯</a>
-
-                <div class="dot-container col-2 mx-auto">
-                    <span class="dot" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
-                </div>
-            </div>
-        </section> -->
-
-        <section class="news">
-            <div class="news-holder container">
+        <section class="social">
+            <div class="social-holder container">
                 <div class="mySlides col-8 mx-auto">
                     <img class="social-photo img-fluid col-1" src="assets/img/Woman1.png" alt="">
                     <p class="social-name">Amalia Jojo, Grundare och VD - Jojo Väv AB</p>
@@ -260,10 +239,10 @@
             </div>
         </div>
 
-        <div class="icons col-md-1 col-2 d-flex justify-content-between align-items-center">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
+        <div class="icons col-md-2 col-3 d-flex justify-content-between align-items-center">
+            <a href="#" class="col-3 d-flex justify-content-center"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="col-3 d-flex justify-content-center"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="col-3 d-flex justify-content-center"><i class="fab fa-youtube"></i></a>
         </div>
 	</footer>
 

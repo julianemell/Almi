@@ -36,10 +36,7 @@ button {
     padding: 2% 5% 2% 5%;
     margin-top: 4%;
     margin-bottom: 6%;
-
-    
     border-radius: 10px;
-
     width: 50%;
 }
 
@@ -73,15 +70,23 @@ button {
 }
 
 .quote {
-    background-color: rgb(233, 233, 233);
+    background-color: rgba(128, 128, 128, 0.20);
     color: #870aa0;
     font-family: sofia-pro, sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: italic;
     
     margin-top: 4%;
     margin-bottom: 4%;
-    padding: 2%;
+    padding: 4%;
+
+    position: relative;
+}
+
+.citat {
+    position: absolute;
+    left: 9%;
+    z-index: -1;
 }
 
 .about {
@@ -92,11 +97,6 @@ button {
 .about-second {
     flex-wrap: wrap;
     color: black;
-}
-
-#men-working {
-    width: 50%;
-    height: auto;
 }
 
 .news-holder {
@@ -231,8 +231,8 @@ footer a:hover {
 }
 
 i {
-    width: 15%;
-    height: auto;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 /* End of footer */
@@ -273,3 +273,10 @@ Sofia Pro Semi Bold italic
 font-family: sofia-pro, sans-serif;
 font-weight: 600;
 font-style: italic; */
+/* 
+@media screen and (min-width: 576px) {
+    citat {
+    left: 40px;
+
+    }
+} */
