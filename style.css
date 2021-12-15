@@ -49,6 +49,7 @@ button {
     border: none;
     padding: 2% 5% 2% 5%;
     border-radius: 10px;
+    white-space: nowrap;
 }
 
 /* Header */
@@ -165,10 +166,6 @@ button {
     margin-bottom: 4%;
 }
 
-.news-text {
-    width: 70%;
-}
-
 .offers {
     background-color: #870aa0;
     color: white;
@@ -191,6 +188,9 @@ button {
     margin-bottom: 4%;
 }
 
+.email {
+    margin-right: 2%;
+}
 
 /* End of main */
 
