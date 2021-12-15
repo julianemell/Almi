@@ -117,12 +117,10 @@ button {
   cursor: pointer;
   position: absolute;
   top: 50%;
-  width: auto;
+  /* width: auto; */
   margin-top: -30px;
   padding: 16px;
-  color: #870aa0;
-  font-weight: bold;
-  font-size: 20px;
+  
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
@@ -132,11 +130,19 @@ button {
   position: absolute;
   right: 0;
   border-radius: 3px 0 0 3px;
+
+  display: flex;
+  justify-content: end;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   color: white;
+}
+
+.next-prev-buttons {
+    width: 10%;
+    height: auto;
 }
 
 /* The dot/bullet/indicator container */
@@ -177,9 +183,26 @@ button {
 }
 
 .social-holder {
-    background-color: rgb(233, 233, 233);
     color: #870aa0;
     padding: 4%;
+}
+
+.social-name {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.social-quote {
+    font-style: italic;
+}
+
+.quote-social-container {
+    position: relative;
+}
+
+.citat-social {
+    position: absolute;
+    z-index: -2;
 }
 
 .newsletter {
