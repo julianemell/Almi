@@ -42,7 +42,7 @@ button {
     margin-top: 6%;
     margin-bottom: 6%;
     border-radius: 10px;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .orange-button {
@@ -257,7 +257,7 @@ footer a {
 
 .footer {
     background-color: #ff5f0a;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 4%;
 }
 
