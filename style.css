@@ -12,6 +12,11 @@ h1 {
     color: white;
 }
 
+h3 {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
 p {
     margin-bottom: 0;
 }
@@ -34,7 +39,7 @@ button {
     color: #870aa0;
     border: none;
     padding: 2% 5% 2% 5%;
-    margin-top: 4%;
+    margin-top: 6%;
     margin-bottom: 6%;
     border-radius: 10px;
     width: 50%;
@@ -51,12 +56,11 @@ button {
 
 /* Header */
 
-
-
 /* End of header */
 
 /* Main */
 
+/* Hero */
 .hero {
     position: relative;
     z-index: -1;
@@ -69,6 +73,7 @@ button {
     z-index: 900;
 }
 
+/* Quote */
 .quote {
     background-color: rgba(128, 128, 128, 0.20);
     color: #870aa0;
@@ -89,22 +94,40 @@ button {
     z-index: -1;
 }
 
+/* About */
 .about {
     background-color: #870aa0;
     color: white;
 }
 
+/* About, second section */
 .about-second {
     flex-wrap: wrap;
     color: black;
 }
 
+/* News */
 .news-holder {
     position: relative;
     background-color: rgb(233, 233, 233);
-    color: #707070;
     padding: 4%;
 }
+
+.news-holder p {
+    color: #707070;
+}
+
+.news-holder h3 {
+    color: #870aa0;
+    margin-bottom: 4%;
+}
+
+.news {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+
 
 /* Slides */
 .mySlides {
@@ -119,7 +142,7 @@ button {
   top: 50%;
   /* width: auto; */
   margin-top: -30px;
-  padding: 16px;
+  padding: 4%;
   
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -128,7 +151,7 @@ button {
 /* Position the "next button" to the right */
 .next {
   position: absolute;
-  right: 0;
+  right: 4.5%;
   border-radius: 3px 0 0 3px;
 
   display: flex;
@@ -167,16 +190,13 @@ button {
   background-color: #717171;
 }
 
-.news {
-    margin-top: 4%;
-    margin-bottom: 4%;
-}
-
+/* Offer */
 .offers {
     background-color: #870aa0;
     color: white;
 }
 
+/* Social proofing */
 .social {
     margin-top: 4%;
     margin-bottom: 4%;
@@ -187,9 +207,8 @@ button {
     padding: 4%;
 }
 
-.social-name {
-    font-size: 0.8rem;
-    font-weight: 700;
+.social-holder div:nth-child(2) {
+    flex-direction: row-reverse;
 }
 
 .social-quote {
@@ -205,7 +224,9 @@ button {
     z-index: -2;
 }
 
+/* Subscribe */
 .newsletter {
+    background-color: rgb(233, 233, 233);
     color: #707070;
     padding: 4%;
     margin-bottom: 4%;
@@ -259,47 +280,3 @@ i {
 }
 
 /* End of footer */
-
-
-/* 
-Sofia Pro Bold italic
-font-family: sofia-pro, sans-serif;
-font-weight: 700;
-font-style: italic;
-
-Sofia Pro Light
-font-family: sofia-pro, sans-serif;
-font-weight: 300;
-font-style: normal;
-
-Sofia Pro Light italic
-font-family: sofia-pro, sans-serif;
-font-weight: 300;
-font-style: italic;
-
-Sofia Pro Regular
-font-family: sofia-pro, sans-serif;
-font-weight: 400;
-font-style: normal;
-
-Sofia Pro Regular italic
-font-family: sofia-pro, sans-serif;
-font-weight: 400;
-font-style: italic;
-
-Sofia Pro Semi Bold
-font-family: sofia-pro, sans-serif;
-font-weight: 600;
-font-style: normal;
-
-Sofia Pro Semi Bold italic
-font-family: sofia-pro, sans-serif;
-font-weight: 600;
-font-style: italic; */
-/* 
-@media screen and (min-width: 576px) {
-    citat {
-    left: 40px;
-
-    }
-} */
